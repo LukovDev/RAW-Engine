@@ -1,5 +1,5 @@
 .idea
-last.log
+**/**/last.log
 
 *.DS_Store
 *._.DS_Store
