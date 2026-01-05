@@ -1,0 +1,20 @@
+//
+// .h
+//
+
+#pragma once
+
+
+// Подключаем:
+#include <engine/core/std.h>
+
+
+// Объявление структур:
+typedef struct TemplateS TemplateS;
+
+
+// Структура TMPLT:
+struct TemplateS {
+    // ...
+};
+

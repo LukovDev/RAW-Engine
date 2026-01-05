@@ -1,0 +1,16 @@
+.idea
+
+*.DS_Store
+*._.DS_Store
+._*
+.smbdeleteAAA159
+
+**/**/__pycache__
+**/**/metadata.json
+**/**/bin/*
+**/**/obj/*
+data/packs/
+
+gitutils.py
+commit.bat
+commit.sh

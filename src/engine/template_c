@@ -1,0 +1,37 @@
+//
+// .c - ...
+//
+
+
+// Подключаем:
+#include <engine/core/std.h>
+#include <engine/core/mm.h>
+#include "template.h"
+
+
+// Объявление функций:
+// ...
+
+
+// Создать TMPLT:
+TemplateS* TemplateS_create() {
+    TemplateS *tmp = (TemplateS*)mm_alloc(sizeof(TemplateS));
+
+    // ...
+
+    return tmp;
+}
+
+
+// Уничтожить TMPLT:
+void TemplateS_destroy(TemplateS **tmp) {
+    if (!tmp || !*tmp) return;
+    mm_free(*tmp);
+    *tmp = NULL;
+}
+
+
+// Реализация API:
+
+
+// ...

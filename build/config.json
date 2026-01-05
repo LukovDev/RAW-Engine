@@ -1,0 +1,40 @@
+{
+    "program-name":  "engine",
+    "program-icon":  "data/icons/icon.ico",
+    "source-dirs":   [
+        "src/engine/core/",
+        "src/engine/graphics-gl/",
+        "src/main/"
+    ],
+    "build-dir":     "build/",
+    "bin-dir-name":  "bin",
+    "obj-dir-name":  "obj",
+    "libs-output":   "",
+    "build-logging": true,
+    "multi-threads": true,
+    "strip":         false,
+    "progress-percent": false,
+    "console-disabled": false,
+    "defines":       [],
+    "includes":      [
+        "/opt/homebrew/include/",
+        "src/include/",
+        "src/"
+    ],
+    "libraries":     [
+        "/opt/homebrew/lib/",
+        "src/libs/"
+    ],
+    "libnames":      [
+        "SDL3"
+    ],
+    "optimization":  "-O3",
+    "std-c":         "c17",
+    "std-cpp":       "c++17",
+    "compiler-c":    "gcc",
+    "compiler-cpp":  "g++",
+    "linker":        "g++",
+    "warnings":      ["-Wall"],
+    "compile-flags": ["-g"],
+    "linker-flags":  []
+}
