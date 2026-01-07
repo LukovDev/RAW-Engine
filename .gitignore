@@ -12,6 +12,6 @@
 **/**/obj/*
 data/packs/
 
-gitutils.py
+git.py
 commit.bat
 commit.sh

@@ -139,10 +139,8 @@ void update(Window *self, Input *input, float dtime) {
         self->set_fps(self, 10.0f);
     }
 
-    if (input->get_key_down(self)[K_1]) camera3d->set_ortho(camera3d, true);
-    if (input->get_key_down(self)[K_2]) camera3d->set_ortho(camera3d, false);
-    if (input->get_key_down(self)[K_3]) camera3d->set_back_face_culling(camera3d);
-    if (input->get_key_down(self)[K_4]) camera3d->set_front_face_culling(camera3d);
+    if (input->get_key_down(self)[K_1]) camera3d->set_back_face_culling(camera3d);
+    if (input->get_key_down(self)[K_2]) camera3d->set_front_face_culling(camera3d);
 
     controller3d->update(controller3d, dtime, false);
     camera3d->update(camera3d);
